@@ -17,7 +17,7 @@ struct NativeArg_s
 };
 
 static Native_s** g_Natives = (Native_s**)0x1E5FE38;
-static NativeArg_s* NativeArg = (NativeArg_s*)0x10060000; //Open space addr
+static NativeArg_s* NativeArg = (NativeArg_s*)0x10060000;
 
 void ResetArgs()
 {
