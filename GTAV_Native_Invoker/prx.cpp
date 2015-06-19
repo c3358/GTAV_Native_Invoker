@@ -29,6 +29,7 @@ int Hook()
 {
 	//Call Natives Here
 	//EX: Player player = PLAYER::PLAYER_ID();
+	//EX: Ped ped = PLAYER::PLAYER_PED_ID();
 	return is_player_online();
 }
 
