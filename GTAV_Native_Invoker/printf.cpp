@@ -23,7 +23,6 @@
 /*
  * History
  *
- * 2009-03-05 Hector Martin <hector@marcansoft.com>
  *
  * 	Hacked up and removed a lot of stuff including floating-point support,
  * 	a bunch of ifs and defines, locales, and tests
