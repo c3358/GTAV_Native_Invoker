@@ -1,0 +1,25 @@
+﻿Build started 6/18/2015 7:17:54 PM.
+     1>Project "C:\Users\Kurt\Documents\Visual Studio 2010\Projects\GTAV_Native_Invoker\GTAV_Native_Invoker\GTAV_Native_Invoker.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "PS3_Debug\GTA.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         prx.cpp
+         ps3ppusnc.exe -D_DEBUG -D__CELL_ASSERT__ -D__PS3__ -DLIBNAME=cellPrx_GTA -DSTUBNAME=cellPrx_GTA_stub -o PS3_Debug\prx.o -c -Xmserrors -Xdepmode=1 -MD -I. -IC:/usr/local/cell\target\ppu\include -IC:/usr/local/cell\target\common\include -I"C:/usr/local/cell\host-win32\sn\ppu\include" -g -O0 -Xc-=rtti --use_pch="PS3_Debug\GTA.pch" "C:\Users\Kurt\Documents\Visual Studio 2010\Projects\GTAV_Native_Invoker\GTAV_Native_Invoker\prx.cpp"
+     1>SNCCL : warning 1641: PreCompiled Header definition mismatch: PCH file uses PCH header file "stdafx.h", current file uses header file <cellstatus.h>
+         
+     1>SNCCL : warning 632: the initial sequence of preprocessing directives is not compatible with those of precompiled header file "PS3_Debug\GTA.pch"
+         
+       Link:
+         C:\usr\local\cell\host-win32\sn\bin\ps3ppuld.exe -oformat=fsprx -o "C:\Users\Kurt\Documents\Visual Studio 2010\Projects\GTAV_Native_Invoker\PS3_Debug\GTA.sprx" -L"C:/usr/local/cell\host-win32\lib\prx\ldscripts" -s -strip-unused-data --start-group PS3_Debug\printf.o PS3_Debug\prx.o PS3_Debug\stdafx.o C:/usr/local/cell\target\ppu\lib\libstdc++.a C:/usr/local/cell\target\ppu\lib\libstdc++_stub.a C:/usr/local/cell\target\ppu\lib\libc.a C:/usr/local/cell\target\ppu\lib\libc_stub.a libsn.a libm.a libio_stub.a libfs_stub.a --end-group
+         GTAV_Native_Invoker.vcxproj -> C:\Users\Kurt\Documents\Visual Studio 2010\Projects\GTAV_Native_Invoker\PS3_Debug\GTA.sprx
+         Cannot find the expected PRX Stub Library file: cellPrx_GTA_stub.a
+         Deleting file "PS3_Debug\ps3ppuld-ppu-lv2-prx-libgen.write.1.tlog".
+       FinalizeBuildStatus:
+         Deleting file "PS3_Debug\GTA.unsuccessfulbuild".
+         Touching "PS3_Debug\GTA.lastbuildstate".
+     1>Done Building Project "C:\Users\Kurt\Documents\Visual Studio 2010\Projects\GTAV_Native_Invoker\GTAV_Native_Invoker\GTAV_Native_Invoker.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.16
