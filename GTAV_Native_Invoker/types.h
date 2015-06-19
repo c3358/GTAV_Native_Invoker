@@ -5,7 +5,7 @@
 typedef void* Void;
 typedef int Any;
 typedef unsigned int uint;
-typedef int Hash;
+typedef unsigned int Hash;
 typedef int BOOL;
 typedef int Entity;
 typedef int Player;
