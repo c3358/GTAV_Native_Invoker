@@ -22,7 +22,7 @@ void HookNative(int native, int dest) {
 int is_player_online() {
 	if (*(char*)(0x22322A0) == 0)
 		return 0;
-	else return 1;
+	else return 1337;
 }
 
 int Hook()
